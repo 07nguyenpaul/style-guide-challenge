@@ -46,7 +46,7 @@ nav li {
 
 a {
   color: white;
-
+  font-family: 'PT Serif', serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -59,7 +59,7 @@ a:hover {
 
 .sign-in-button-on-bigscreens {
   align-text: center;
-
+  font-family: 'PT Serif', serif;
   border-radius: 5px;
   background-color: white;
   font-size: 15px;
@@ -86,6 +86,7 @@ a:hover {
 
   ul li a + .hidden-menu{
     border-radius: 3px;
+    font-family: 'PT Serif', serif;
     font-size: 20px;
     text-align: center;
     padding: 35px 5px 10px 15px;
@@ -115,6 +116,7 @@ a:hover {
     border-radius: 5px;
     background-color: white;
     font-size: 15px;
+    font-family: 'PT Serif', serif;
     height: 27px;
     margin-right: 9px;
   }
