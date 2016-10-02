@@ -52,7 +52,7 @@ li a {
   text-decoration: none;
 }
 
-a:hover {
+.nav-link a:hover {
   color: black;
   font-size: 23px;
   text-shadow: 1px 1px 1px black;

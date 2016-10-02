@@ -1,0 +1,51 @@
+.week-4-container {
+  background: #70C3C1;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.footer-img {
+  display: flex;
+  height: 90px;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  color: white;
+  flex-basis: 13em;
+  flex-shrink: 0;
+  font-size: 1.5em;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.column li {
+  line-height: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+
+.column a {
+  color: black;
+  font-size: .75em;
+  text-decoration: none;
+}
+
+.copyright {
+  border-top: 1px solid black;
+  color: black;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+}

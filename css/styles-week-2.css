@@ -26,9 +26,9 @@
 
 .content-card-link, .content-card-text {
   margin-bottom: 15px;
+  text-decoration: none;
 }
 
 .content-card-link {
-  text-decoration: none;
-  border: 2px solid black;
+color: black; 
 }
