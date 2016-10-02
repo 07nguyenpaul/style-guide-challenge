@@ -1,0 +1,34 @@
+.week-2-container {
+  width: 90%;
+  border: 2px solid pink;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.content-card-container {
+  display: flex;
+}
+
+.content-card-title {
+  margin: 10px 0 10px 0;
+  font-size: 1.2em;
+}
+.content-card {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  display: flex;
+  flex-direction: column;
+  margin: 5vh auto;
+  width: 350px;
+}
+
+.content-card-link, .content-card-text {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.content-card-link {
+color: black; 
+}

@@ -44,14 +44,15 @@ nav li {
   margin-right: 10px;
 }
 
-a {
+/* LINKS IN THE HEADER */
+li a {
   color: white;
   font-family: 'PT Serif', serif;
   font-size: 20px;
   text-decoration: none;
 }
 
-a:hover {
+.nav-link a:hover {
   color: black;
   font-size: 23px;
   text-shadow: 1px 1px 1px black;
@@ -65,15 +66,24 @@ a:hover {
   font-size: 15px;
   height: 30px;
   margin-right: 15px;
-
 }
 
 .sign-in-button-on-bigscreens:hover {
   background-color: blue;
 }
 
-/* Media Queries */
+.dropdown-code {
+  height: 82%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 
+.dropdown-code a {
+  color: black;
+}
+
+/* Media Queries */
 @media (max-width: 780px) {
   .nav-link, .hidden-menu, .sign-in-button-on-bigscreens{
     display: none;
@@ -81,15 +91,20 @@ a:hover {
 
   .dropdown-menu {
     display: block;
-    margin-right: 60px;
+    margin-right: 40px;
   }
 
   ul li a + .hidden-menu{
     border-radius: 3px;
     font-family: 'PT Serif', serif;
     font-size: 20px;
+    line-height: 1.5;
     text-align: center;
     padding: 35px 5px 10px 15px;
+  }
+
+  ul li a:hover + .hidden-menu, .hidden-menu:hover {
+    display: block;
   }
 
   header {
@@ -108,10 +123,6 @@ a:hover {
     right: 30px;
   }
 
-  ul li a:hover + .hidden-menu, .hidden-menu:hover {
-    display: block;
-  }
-
   .sign-in-button {
     border-radius: 5px;
     background-color: white;
@@ -123,5 +134,11 @@ a:hover {
 
   .sign-in-button:hover {
     background-color: blue;
+  }
+
+  .codepen {
+    border: 2px solid pink;
+    width: 90%;
+    text-align: center;
   }
 };
